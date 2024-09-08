@@ -38,7 +38,7 @@
               viewBox="0 0 24 24"
               stroke-width="2"
               stroke="currentColor"
-              class="inline max-[640px]:size-8 sm:size-8 md:size-10 bg-[#ABEF5F] max-[640px]:p-2 p-2 rounded-full mb-2 mr-2 hover:text-white transition ease-in-out duration-300"
+              class="inline max-[640px]:size-8 sm:size-8 md:size-10 bg-[#ABEF5F] max-[640px]:p-2 p-2 rounded-full mb-3 mr-2 hover:bg-[#90c950] transition ease-in-out duration-300"
             >
               <path
                 stroke-linecap="round"
@@ -47,7 +47,7 @@
               />
             </svg>
             <p
-              class="text-[#1C1C1C] inline max-[640px]:text-2xl sm:text-3xl md:text-4xl font-extrabold sm:mt-4"
+              class="text-[#1C1C1C] inline max-[640px]:text-3xl sm:text-3xl md:text-4xl font-extrabold sm:mt-4"
             >
               Rinterio
             </p>
@@ -534,11 +534,13 @@
 
     <!-- Connect Form -->
     <div
-      class="connectForm bg-[#F4F4F4] py-16 md:mt-4 bg-cover bg-center bg-no-repeat"
+      class="connectForm bg-[#F4F4F4] max-[640px]:py-8 md:py-16 mt-4 bg-cover bg-center bg-no-repeat"
       style="background-image: url(assets/bg.jpg)"
     >
       >
-      <div class="form_top max-[640px]:w-[90%] md:w-[55%] mx-auto text-center">
+      <div
+        class="form_top max-[640px]:w-[90%] md:w-[55%] mx-auto text-center mb-8"
+      >
         <button
           type="button"
           class="block bg-[#ABEF5F33] text-[#1C1C1C] font-black px-4 py-2 rounded-full mx-auto"
@@ -643,5 +645,98 @@
         </form>
       </div>
     </div>
+
+    <!-- footer -->
+    <footer class="bg-[#1C1C1C]">
+      <div class="cotainer max-[640px]:w-[90%] md:w-3/5 mx-auto pb-10">
+        <div class="text pt-16 w-1/2 mx-auto text-center justify-center">
+          <!-- Logo Arrow -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="inline max-[640px]:size-8 sm:size-8 md:size-10 bg-[#ABEF5F] max-[640px]:p-2 p-2 rounded-full mb-3 mr-2 hover:bg-[#90c950] transition ease-in-out duration-300"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
+          <p
+            class="text-[#F4F4F4] inline max-[640px]:text-3xl sm:text-3xl md:text-4xl font-extrabold sm:mt-4"
+          >
+            Rinterio
+          </p>
+        </div>
+        <div class="dialouge max-[640px]:w-[80%] md:w-4/5 mx-auto pb-2">
+          <p class="text-center mx-auto max-[640px]:my-2 md:my-8">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <div class="navbar max-[640px]:w-[80%] md:w-4/5 mx-auto pb-4">
+          <ul class="flex max-[640px]:flex-col justify-center text-center">
+            <li class="px-6 py-3 mr-2">
+              <a
+                class="hover:cursor-pointer text-gray-200 font-[100] hover:border-b hover:border-[#434343] transition ease-in-out duration-300"
+                ahref="#"
+                >Home</a
+              >
+            </li>
+            <li class="px-6 py-3 mr-2">
+              <a
+                class="hover:cursor-pointer text-gray-200 font-[100] hover:border-b hover:border-[#434343] transition ease-in-out duration-300"
+                ahref="#"
+                >Services</a
+              >
+            </li>
+            <li class="px-6 py-3 mr-2">
+              <a
+                class="hover:cursor-pointer text-gray-200 font-[100] hover:border-b hover:border-[#434343]"
+                ahref="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="px-6 py-3 mr-2">
+              <a
+                class="hover:cursor-pointer text-gray-200 font-[100] hover:border-b hover:border-[#434343]"
+                ahref="#"
+                >About</a
+              >
+            </li>
+            <li class="px-4 py-3 mr-2">
+              <a
+                class="hover:cursor-pointer text-gray-200 font-[100] hover:border-b hover:border-[#434343]"
+                ahref="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button
+          class="block max-[640px]:w-4/5 md:w-1/3 mx-auto bg-[#ABEF5F] hover:bg-[#96d152] text-[#1C1C1C] font-bold text-lg my-4 py-2 rounded-3xl focus:outline-none focus:shadow-outline"
+          type="submit"
+        >
+          Book Consult
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="inline size-6 bg-[#1C1C1C] text-white p-1.5 ml-2 rounded-full"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
